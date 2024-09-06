@@ -38,7 +38,7 @@ if __name__=="__main__":
                  )
     start_idx_video = 0
 
-    fourcc = cv2.VideoWriter_fourcc(*'X264')
+    fourcc = cv2.VideoWriter_fourcc(*"mp4v")
     output_video = cv2.VideoWriter('./examples/output.mp4', fourcc, fps, resolution)
 
 
